@@ -1,3 +1,7 @@
 function  Start() {
-    console.log(12)
+    alert('Are you ready???')
+    document.getElementById('div1').innerHTML = document.getElementById('div3').innerHTML
+}
+function Home(){
+    window.location.href = "index.html"
 }
