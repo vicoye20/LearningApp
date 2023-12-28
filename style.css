@@ -1,0 +1,119 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: teal;
+    animation: 1.5s body ease-in-out infinite;
+}
+@keyframes body {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        background-color: brown;
+    }
+}
+
+.tom{
+    animation: 2s vics ease-in-out;
+}
+@keyframes vics {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(420px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.tom1{
+    position: absolute;
+    right: 0px;
+    animation: 2s vic ease-in-out;
+}
+@keyframes vic {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(-420px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.tom2{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    animation: 2s bets ease-in-out;
+}
+@keyframes bets {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(420px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.tom3{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    animation: 2s bet ease-in-out;
+}
+
+@keyframes bet {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(-420px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.tom5{
+   position: absolute;
+   left: 550px;
+   animation: 2s tom ease-in-out;
+}
+@keyframes tom {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        transform: translateY(150px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.tom6{
+    position: absolute;
+    left: 550px;
+    bottom: 0px;
+    animation: 2s toms ease-in-out;
+ }
+ @keyframes toms {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
