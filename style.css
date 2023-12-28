@@ -3,14 +3,14 @@ body{
     margin: 0;
     box-sizing: border-box;
     background-color: teal;
-    animation: 1.5s body ease-in-out infinite;
+    animation: 3s body ease-in-out infinite;
 }
 @keyframes body {
     0%{
         opacity: 1;
     }
     50%{
-        background-color: brown;
+        background-color: red;
     }
 }
 
@@ -18,41 +18,6 @@ body{
     animation: 2s vics ease-in-out;
 }
 @keyframes vics {
-    0%{
-        opacity: 1;
-    }
-    50%{
-        transform: translateX(420px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-}
-
-.tom1{
-    position: absolute;
-    right: 0px;
-    animation: 2s vic ease-in-out;
-}
-@keyframes vic {
-    0%{
-        opacity: 1;
-    }
-    50%{
-        transform: translateX(-420px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-}
-
-.tom2{
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    animation: 2s bets ease-in-out;
-}
-@keyframes bets {
     0%{
         opacity: 1;
     }
@@ -83,40 +48,7 @@ body{
     }
 }
 
-.tom5{
-   position: absolute;
-   left: 550px;
-   animation: 2s tom ease-in-out;
-}
-@keyframes tom {
-    0%{
-        opacity: 1;
-    }
-    50%{
-        transform: translateY(150px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
-}
 
-.tom6{
-    position: absolute;
-    left: 550px;
-    bottom: 0px;
-    animation: 2s toms ease-in-out;
- }
- @keyframes toms {
-    0%{
-        opacity: 1;
-    }
-    50%{
-        transform: translateY(-150px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
-}
 
 h1{
     text-align: center;
@@ -135,20 +67,19 @@ h1{
     }
 }
 
-button{
-    height: 120px;
-    width: 120px;
-    background-color: white;
-    color: darkblue;
-    border: none;
+#one{
+    text-align: center;
     font-family: cursive;
+    font-size: 1.5rem;
     font-weight: bold;
-    font-size: 25px;
-    border-radius: 50%;
+    color: darkblue;
     cursor: pointer;
-    position: relative;
-    left: 650px;
-    top: -20px;
+    border-radius: 50px;
+    padding-top: 10px;
+    background-color: white;
+    width: 120px;
+    height: 80px;
+    margin: auto;
     transition: 1s;
     animation: 2s btn ease-in-out;
 }
@@ -158,11 +89,27 @@ button{
         opacity: 1;
     }
     50%{
-        transform: translateX(800px);
+        transform: translateY(-500px);
     }
 }
 
-button:hover{
+#one:hover{
     background-color: yellow;
     color: black;
+}
+
+@media (max-width:768px){
+    .tom{
+        width: 200px;
+        height: 200px;
+    }
+    .tom3{
+        width: 200px;
+        height: 200px;
+    }
+    h1{
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 70px;
+    }
 }
