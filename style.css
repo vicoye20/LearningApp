@@ -281,6 +281,16 @@ button:hover{
     display: grid;
     grid-template-columns: repeat(10,10fr);
     gap: 2px;
+    animation: 2s rate ease-in-out;
+}
+
+@keyframes rate {
+    0%{
+        transform: translateX(-1400px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
 
 .sew{
