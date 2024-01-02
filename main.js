@@ -30,7 +30,7 @@ var learnings = [
     },
 
     {
-        learning : 'C for Cake',
+        learning : 'C for Cockroach',
     },
     
     {
@@ -54,7 +54,7 @@ var learnings = [
     },
 
     {
-        learning : 'I for Ice-Cream',
+        learning : 'I for Insect',
     },
 
     {
